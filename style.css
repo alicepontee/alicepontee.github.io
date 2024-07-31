@@ -10,3 +10,15 @@
 .flex-child:first-child {
     margin-right: 20px;
 } 
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box img {
+    width: 400;
+    height: 500;
+  }
+  
