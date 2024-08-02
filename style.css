@@ -1,8 +1,18 @@
+.outer-container {
+    margin: 24px;
+    border: 1px solid black;
+    overflow: hidden;
+}
 .flex-container {
     display: flex;
     background-color: beige;
     margin-right: 5px;
     margin-left: 5px; 
+}
+
+.header {
+    background-color: pink;
+    height: 200;
 }
 
 .flex-child {
