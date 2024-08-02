@@ -5,12 +5,7 @@
 }
 .flex-container {
     display: flex;
-    background-color: beige;
-}
-
-.header {
-    background-color: pink;
-    height: 200;
+    background-color: #faefdd;
 }
 
 .flex-child {
