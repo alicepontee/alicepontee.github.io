@@ -6,8 +6,6 @@
 .flex-container {
     display: flex;
     background-color: beige;
-    margin-right: 5px;
-    margin-left: 5px; 
 }
 
 .header {
