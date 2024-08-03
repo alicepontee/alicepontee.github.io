@@ -3,6 +3,22 @@
     border: 1px solid black;
     overflow: hidden;
 }
+
+header .container {
+    padding: 16px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-name {
+    font-family: regardsregular, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+}
+
+
 .flex-container {
     display: flex;
     background-color: #faefdd;
