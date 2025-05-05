@@ -39,3 +39,47 @@
         .flex-container {
             display: flex;
             gap: 20px;
+            padding: 20px;
+        }
+
+        .left-column {
+            background-color: rgb(255, 202, 177);
+            padding: 10px;
+        }
+
+        .right-column {
+            background-color: rgb(193, 215, 174);
+            padding: 10px;
+            flex-grow: 1;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="brand">
+            <a href="index.html">Alice Ponte</a>
+        </div>
+        <div class="nav-tabs">
+            <a href="index.html">Home</a>
+            <a href="research.html">Research</a>
+            <a href="teaching.html">Teaching</a>
+        </div>
+    </header>
+
+    <div class="flex-container">
+        <div class="left-column">
+            <img src="https://raw.githubusercontent.com/alicepontee/alicepontee.github.io/main/alice.JPG" alt="Profile Pic" width="300" height="400">
+        </div>
+        <div class="right-column">
+            <p>Hi I'm Alice and this site is still under construction :D</p>
+        </div>
+    </div>
+
+</body>
+</html>
