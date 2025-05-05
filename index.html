@@ -3,52 +3,39 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Inline CSS for demonstration; move to style.css */
+        /* Inline CSS for demo; you can move to style.css */
+        body {
+            background-color: rgb(193, 215, 174);
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
         .navbar {
             background-color: #faefdd;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 20px;
+            padding: 15px 30px;
         }
 
-        .navbar .brand {
+        .navbar .brand a {
             font-size: 24px;
             font-weight: bold;
-        }
-
-        .navbar a {
             text-decoration: none;
             color: black;
-            margin: 0 15px;
-            font-weight: 500;
         }
 
-        .nav-tabs {
-            display: flex;
-            gap: 20px;
+        .nav-tabs a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
         }
 
         .nav-tabs a:hover {
             text-decoration: underline;
         }
-    </style>
-</head>
-<body style="background-color: rgb(193, 215, 174);">
 
-<div class="outer-container">
-    <header class="navbar">
-        <div class="brand">
-            <a href="index.html">Alice Ponte</a>
-        </div>
-        <div class="nav-tabs">
-            <a href="index.html">Home</a>
-            <a href="research.html">Research</a>
-            <a href="teaching.html">Teaching</a>
-        </div>
-    </header>
-
-    <div class="flex-container">
-        <div class="flex-child rgb(255,202,177)">
-            <div class="box">
-                <img src="https://raw.githubusercontent.com/alicepontee/alicepontee.github.io/main/alice.JPG" alt="Profile
+        .flex-container {
+            display: flex;
+            gap: 20px;
