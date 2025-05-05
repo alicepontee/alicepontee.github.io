@@ -45,3 +45,102 @@ header .container {
     height: 500;
   }
   
+  body {
+    background-color: #faefdd; /* Light pink background */
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333; /* Darker text for contrast */
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #faefdd; /* Soft cream color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.navbar .brand a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-tabs a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav-tabs a:hover {
+    text-decoration: underline;
+}
+
+/* Flex container setup */
+.flex-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Left column (image section) */
+.left-column {
+    background-color: rgb(255, 202, 177); /* Peachy background */
+    padding: 10px;
+    border-radius: 15px; /* Rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; /* Set width equal to the image size */
+}
+
+.profile-pic {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Right column (text section) */
+.right-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgb(255, 202, 177); /* Peach background */
+    padding: 20px;
+    flex: 1;
+}
+
+/* Blurb box (text content inside right column) */
+.blurb-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #faefdd;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px; /* Optional: Prevents the box from growing too wide */
+    text-align: center;
+}
+
+/* Paragraph text inside the blurb box */
+.blurb-box p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 0;
+}
+
+/* Image inside the blurb box */
+.blurb-box img {
+    max-width: 100%;
+    height: auto;
+}
