@@ -7,7 +7,7 @@
         body {
             background-color: rgb(193, 215, 174);
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
         .navbar {
@@ -45,13 +45,15 @@
         .left-column {
             background-color: rgb(255, 202, 177);
             padding: 10px;
+            border-radius: 15px; /* ← this rounds the corners */
         }
 
         .right-column {
-            background-color: rgb(193, 215, 174);
-            padding: 10px;
-            flex-grow: 1;
-        }
+    background-color: rgb(193, 215, 174);
+    padding: 10px;
+    flex-grow: 1;
+    border-radius: 15px; /* ← this rounds the corners */
+}
 
         img {
             max-width: 100%;
