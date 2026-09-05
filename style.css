@@ -128,3 +128,29 @@ body {
     justify-content: space-between;
     margin-bottom: 10px;
 }
+
+.seminar-blurb {
+  margin: 0 0 55px;
+  font-size: 20px;
+  line-height: 1.65;
+  color: #333;
+}
+
+.seminar-item {
+  display: flex;
+  align-items: baseline;
+  gap: 40px;
+  padding: 16px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.seminar-item span:first-child {
+  flex: 0 0 150px;
+  color: #777;
+  font-size: 17px;
+}
+
+.seminar-item span:last-child {
+  color: #333;
+  font-size: 20px;
+}
